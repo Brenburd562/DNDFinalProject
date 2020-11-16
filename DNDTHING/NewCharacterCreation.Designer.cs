@@ -63,6 +63,11 @@
             this.ACInput = new System.Windows.Forms.TextBox();
             this.HPInput = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.MainMenu = new System.Windows.Forms.Button();
+            this.Create = new System.Windows.Forms.Button();
+            this.EquipmentInput = new System.Windows.Forms.TextBox();
+            this.SpecialTraitsInput = new System.Windows.Forms.TextBox();
+            this.ProficienciesInput = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -306,11 +311,59 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(472, 561);
+            this.pictureBox1.Location = new System.Drawing.Point(472, 551);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(306, 344);
+            this.pictureBox1.Size = new System.Drawing.Size(306, 354);
             this.pictureBox1.TabIndex = 34;
             this.pictureBox1.TabStop = false;
+            // 
+            // MainMenu
+            // 
+            this.MainMenu.BackColor = System.Drawing.Color.DimGray;
+            this.MainMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MainMenu.Location = new System.Drawing.Point(728, 1772);
+            this.MainMenu.Name = "MainMenu";
+            this.MainMenu.Size = new System.Drawing.Size(352, 148);
+            this.MainMenu.TabIndex = 39;
+            this.MainMenu.Text = "MAIN MENU";
+            this.MainMenu.UseVisualStyleBackColor = false;
+            this.MainMenu.Click += new System.EventHandler(this.MainMenu_Click);
+            // 
+            // Create
+            // 
+            this.Create.BackColor = System.Drawing.Color.DimGray;
+            this.Create.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Create.Location = new System.Drawing.Point(728, 1618);
+            this.Create.Name = "Create";
+            this.Create.Size = new System.Drawing.Size(352, 148);
+            this.Create.TabIndex = 40;
+            this.Create.Text = "Create";
+            this.Create.UseVisualStyleBackColor = false;
+            this.Create.Click += new System.EventHandler(this.Create_Click);
+            // 
+            // EquipmentInput
+            // 
+            this.EquipmentInput.Location = new System.Drawing.Point(34, 793);
+            this.EquipmentInput.Multiline = true;
+            this.EquipmentInput.Name = "EquipmentInput";
+            this.EquipmentInput.Size = new System.Drawing.Size(369, 532);
+            this.EquipmentInput.TabIndex = 41;
+            // 
+            // SpecialTraitsInput
+            // 
+            this.SpecialTraitsInput.Location = new System.Drawing.Point(806, 959);
+            this.SpecialTraitsInput.Multiline = true;
+            this.SpecialTraitsInput.Name = "SpecialTraitsInput";
+            this.SpecialTraitsInput.Size = new System.Drawing.Size(262, 495);
+            this.SpecialTraitsInput.TabIndex = 42;
+            // 
+            // ProficienciesInput
+            // 
+            this.ProficienciesInput.Location = new System.Drawing.Point(34, 1401);
+            this.ProficienciesInput.Multiline = true;
+            this.ProficienciesInput.Name = "ProficienciesInput";
+            this.ProficienciesInput.Size = new System.Drawing.Size(369, 419);
+            this.ProficienciesInput.TabIndex = 43;
             // 
             // NewCharacterCreation
             // 
@@ -319,6 +372,11 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::DNDTHING.Properties.Resources.CharSheet;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Controls.Add(this.ProficienciesInput);
+            this.Controls.Add(this.SpecialTraitsInput);
+            this.Controls.Add(this.EquipmentInput);
+            this.Controls.Add(this.Create);
+            this.Controls.Add(this.MainMenu);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.HPInput);
             this.Controls.Add(this.ACInput);
@@ -400,5 +458,10 @@
         private System.Windows.Forms.TextBox ACInput;
         private System.Windows.Forms.TextBox HPInput;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button MainMenu;
+        private System.Windows.Forms.Button Create;
+        private System.Windows.Forms.TextBox EquipmentInput;
+        private System.Windows.Forms.TextBox SpecialTraitsInput;
+        private System.Windows.Forms.TextBox ProficienciesInput;
     }
 }

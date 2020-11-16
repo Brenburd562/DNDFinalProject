@@ -92,7 +92,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Menu_Screen";
             this.Size = new System.Drawing.Size(1080, 1920);
             this.Load += new System.EventHandler(this.Menu_Screen_Load);
