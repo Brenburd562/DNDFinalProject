@@ -176,8 +176,8 @@ namespace DNDTHING
             foreach (Characters cha in CharacterDB)
             {
                 writer.WriteStartElement("Character");
-                writer.WriteElementString("Name", cha.);
-                writer.WriteElementString("ClassLevel", cha.);
+                writer.WriteElementString("Name", cha.name);
+                writer.WriteElementString("ClassLevel", cha.classLevel);
                 writer.WriteElementString("BackGround", cha.);
                 writer.WriteElementString("PlayerName", cha.);
                 writer.WriteElementString("Race", cha.);
