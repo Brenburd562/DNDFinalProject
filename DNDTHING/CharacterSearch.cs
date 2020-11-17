@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace DNDTHING
 {
@@ -31,5 +32,22 @@ namespace DNDTHING
             cs.Controls.Add(ms);
             ms.Focus();
         }
-    }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string searchName;
+            XmlReader reader = XmlReader.Create("Resources/studentInfo.xml");
+
+            //while (reader.Read())
+            //{
+            //    if (reader.NodeType == XmlNodeType.Text)
+            //    {
+            //        newName = reader.ReadString();
+
+            //        reader.ReadToNextSibling("address");
+            //        newAddress = reader.ReadString();
+            //    }
+
+            }
+        }
 }

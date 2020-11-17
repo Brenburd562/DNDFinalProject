@@ -55,7 +55,9 @@
     <Compile Include="CharacterPrintOut.Designer.cs">
       <DependentUpon>CharacterPrintOut.cs</DependentUpon>
     </Compile>
-    <Compile Include="Characters.cs" />
+    <Compile Include="Characters.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="CharacterSearch.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -134,12 +136,12 @@
     <None Include="Resources\CharacterList.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\Characters.xml" />
+    <None Include="bin\Debug\Resources\Characters.xml" />
     <Content Include="Resources\Characters.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\Debug\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

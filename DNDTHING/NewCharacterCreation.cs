@@ -169,7 +169,6 @@ namespace DNDTHING
             BondInput.Text, IdealsInput.Text, EquipmentInput.Text, Attack1Input.Text, Attack2Input.Text, Attack3Input.Text, Atk1BonInput.Text, Atk2BonInput.Text, 
             Atk3BonInput.Text, Atk1DmgInput.Text, Atk2DmgInput.Text, Atk3DmgInput.Text, SpecialTraitsInput.Text, ProficienciesInput.Text);
             CharacterDB.Add(character);
-            ClearLabels();
 
             XmlWriter writer = XmlWriter.Create("Characters.xml", null);
             writer.WriteStartElement("Characters");
@@ -178,46 +177,48 @@ namespace DNDTHING
                 writer.WriteStartElement("Character");
                 writer.WriteElementString("Name", cha.name);
                 writer.WriteElementString("ClassLevel", cha.classLevel);
-                writer.WriteElementString("BackGround", cha.);
-                writer.WriteElementString("PlayerName", cha.);
-                writer.WriteElementString("Race", cha.);
-                writer.WriteElementString("Alignment", cha.);
-                writer.WriteElementString("XP", cha.);
-                writer.WriteElementString("StrStat", cha.);
-                writer.WriteElementString("StrMod", cha.);
-                writer.WriteElementString("DexStat", cha.);
-                writer.WriteElementString("DexMod", cha.);
-                writer.WriteElementString("ConStat", cha.);
-                writer.WriteElementString("ConMod", cha.);
-                writer.WriteElementString("IntStat", cha.);
-                writer.WriteElementString("IntMod", cha.);
-                writer.WriteElementString("WisStat", cha.);
-                writer.WriteElementString("WisMod", cha.);
-                writer.WriteElementString("chaStat", cha.);
-                writer.WriteElementString("ChaMod", cha.);
-                writer.WriteElementString("Ac", cha.);
-                writer.WriteElementString("HP", cha.);
-                writer.WriteElementString("PersonalityTraits", cha.);
-                writer.WriteElementString("Flaws", cha.);
-                writer.WriteElementString("Bond", cha.);
-                writer.WriteElementString("Ideals", cha.);
-                writer.WriteElementString("Equipment", cha.);
-                writer.WriteElementString("Attack1", cha.);
-                writer.WriteElementString("Attack1Bonus", cha.);
-                writer.WriteElementString("Attack1Damage", cha.);
-                writer.WriteElementString("Attack2", cha.);
-                writer.WriteElementString("Attack2Bonus", cha.);
-                writer.WriteElementString("Attack2Damage", cha.);
-                writer.WriteElementString("Attack3", cha.);
-                writer.WriteElementString("Attack3Bonus", cha.);
-                writer.WriteElementString("Attack3Damage", cha.);
-                writer.WriteElementString("SpecialTraits", cha.);
-                writer.WriteElementString("ProficienciesInput", cha.);
+                writer.WriteElementString("BackGround", cha.background);
+                writer.WriteElementString("PlayerName", cha.playerName);
+                writer.WriteElementString("Race", cha.race);
+                writer.WriteElementString("Alignment", cha.alignment);
+                writer.WriteElementString("XP", cha.XP);
+                writer.WriteElementString("StrStat", cha.strStat);
+                writer.WriteElementString("StrMod", cha.strMod);
+                writer.WriteElementString("DexStat", cha.dexStat);
+                writer.WriteElementString("DexMod", cha.dexMod);
+                writer.WriteElementString("ConStat", cha.conStat);
+                writer.WriteElementString("ConMod", cha.conMod);
+                writer.WriteElementString("IntStat", cha.intStat);
+                writer.WriteElementString("IntMod", cha.intMod);
+                writer.WriteElementString("WisStat", cha.wisStat);
+                writer.WriteElementString("WisMod", cha.wisMod);
+                writer.WriteElementString("chaStat", cha.charStat);
+                writer.WriteElementString("ChaMod", cha.charMod);
+                writer.WriteElementString("Ac", cha.AC);
+                writer.WriteElementString("HP", cha.HP);
+                writer.WriteElementString("PersonalityTraits", cha.personalityTraits);
+                writer.WriteElementString("Flaws", cha.flaws);
+                writer.WriteElementString("Bond", cha.bond);
+                writer.WriteElementString("Ideals", cha.ideals);
+                writer.WriteElementString("Equipment", cha.equipment);
+                writer.WriteElementString("Attack1", cha.attack1);
+                writer.WriteElementString("Attack1Bonus", cha.attackBon1);
+                writer.WriteElementString("Attack1Damage", cha.attackDmg1);
+                writer.WriteElementString("Attack2", cha.attack2);
+                writer.WriteElementString("Attack2Bonus", cha.attackBon2);
+                writer.WriteElementString("Attack2Damage", cha.attackDmg2);
+                writer.WriteElementString("Attack3", cha.attack3);
+                writer.WriteElementString("Attack3Bonus", cha.attackBon3);
+                writer.WriteElementString("Attack3Damage", cha.attackDmg3);
+                writer.WriteElementString("SpecialTraits", cha.specialTraits);
+                writer.WriteElementString("ProficienciesInput", cha.proficiencies);
                 writer.WriteEndElement();
             }
             writer.WriteEndElement();
 
             writer.Close();
+
+            ClearLabels();
         }
 
         private void ClearLabels()
