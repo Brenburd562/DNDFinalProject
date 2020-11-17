@@ -179,7 +179,7 @@ namespace DNDTHING
                 cs.Controls.Remove(this);
 
                 CharacterPrintOut cpo = new CharacterPrintOut();
-                this.Controls.Add(cpo);
+                cs.Controls.Add(cpo);
                 cpo.Focus();
             }
             else
