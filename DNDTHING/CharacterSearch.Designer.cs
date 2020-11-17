@@ -32,6 +32,7 @@
             this.ChaListLabel = new System.Windows.Forms.Label();
             this.nameInput = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.ErrorLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // MainMenu
@@ -76,6 +77,16 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // ErrorLabel
+            // 
+            this.ErrorLabel.AutoSize = true;
+            this.ErrorLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ErrorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErrorLabel.Location = new System.Drawing.Point(383, 1624);
+            this.ErrorLabel.Name = "ErrorLabel";
+            this.ErrorLabel.Size = new System.Drawing.Size(0, 40);
+            this.ErrorLabel.TabIndex = 6;
+            // 
             // CharacterSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -83,6 +94,7 @@
             this.BackColor = System.Drawing.Color.DimGray;
             this.BackgroundImage = global::DNDTHING.Properties.Resources.CharacterList;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Controls.Add(this.ErrorLabel);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.nameInput);
             this.Controls.Add(this.ChaListLabel);
@@ -102,5 +114,6 @@
         private System.Windows.Forms.Label ChaListLabel;
         private System.Windows.Forms.TextBox nameInput;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label ErrorLabel;
     }
 }

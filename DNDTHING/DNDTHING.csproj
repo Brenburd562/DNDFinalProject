@@ -138,10 +138,11 @@
   <ItemGroup>
     <None Include="bin\Debug\Characters.xml" />
     <None Include="bin\Debug\Resources\Characters.xml" />
-    <Content Include="Resources\Characters.xml">
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Characters.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

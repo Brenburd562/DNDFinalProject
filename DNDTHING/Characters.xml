@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Characters>
+  <Character>
+    <Name>dave</Name>
+    <ClassLevel>math 5</ClassLevel>
+    <BackGround> pogger person</BackGround>
+    <PlayerName>brendan</PlayerName>
+    <Race>nascar</Race>
+    <Alignment>polynomial</Alignment>
+    <XP>70</XP>
+    <StrStat>60</StrStat>
+    <StrMod>5</StrMod>
+    <DexStat>54</DexStat>
+    <DexMod>5</DexMod>
+    <ConStat>455</ConStat>
+    <ConMod>5454</ConMod>
+    <IntStat>54</IntStat>
+    <IntMod>454</IntMod>
+    <WisStat>45</WisStat>
+    <WisMod>454</WisMod>
+    <chaStat>45</chaStat>
+    <ChaMod>454</ChaMod>
+    <Ac>54</Ac>
+    <HP>45</HP>
+    <PersonalityTraits>a pog man in a pog world</PersonalityTraits>
+    <Flaws>none</Flaws>
+    <Bond>bonded</Bond>
+    <Ideals>heritics</Ideals>
+    <Equipment>ya mom</Equipment>
+    <Attack1>potatoe</Attack1>
+    <Attack1Bonus>yeast</Attack1Bonus>
+    <Attack1Damage>11223344</Attack1Damage>
+    <Attack2>555</Attack2>
+    <Attack2Bonus>42</Attack2Bonus>
+    <Attack2Damage>p123</Attack2Damage>
+    <Attack3>+++++++</Attack3>
+    <Attack3Bonus>24</Attack3Bonus>
+    <Attack3Damage>pog</Attack3Damage> 
+    <SpecialTraits>pog attack its very poggers</SpecialTraits>
+    <ProficienciesInput>being a true pog champ</ProficienciesInput>
+  </Character>
+</Characters>

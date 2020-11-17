@@ -13,6 +13,7 @@ namespace DNDTHING
 {
     public partial class Form1 : Form
     {
+        public static int index;
         public Form1()
         {
             InitializeComponent();

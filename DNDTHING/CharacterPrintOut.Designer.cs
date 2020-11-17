@@ -29,44 +29,43 @@
         private void InitializeComponent()
         {
             this.MainMenu = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
+            this.nameLabel = new System.Windows.Forms.Label();
+            this.classLevelLabel = new System.Windows.Forms.Label();
+            this.backgroundLabel = new System.Windows.Forms.Label();
+            this.playerNameLabel = new System.Windows.Forms.Label();
+            this.xpLabel = new System.Windows.Forms.Label();
+            this.alignmentLabel = new System.Windows.Forms.Label();
+            this.raceLabel = new System.Windows.Forms.Label();
+            this.strStatLabel = new System.Windows.Forms.Label();
+            this.dexStatLabel = new System.Windows.Forms.Label();
+            this.conStatLabel = new System.Windows.Forms.Label();
+            this.conModLabel = new System.Windows.Forms.Label();
+            this.dexModLabel = new System.Windows.Forms.Label();
+            this.strModLabel = new System.Windows.Forms.Label();
+            this.chaModLabel = new System.Windows.Forms.Label();
+            this.wisModLabel = new System.Windows.Forms.Label();
+            this.intModLabel = new System.Windows.Forms.Label();
+            this.chaStatLabel = new System.Windows.Forms.Label();
+            this.wisStatLabel = new System.Windows.Forms.Label();
+            this.intStatLabel = new System.Windows.Forms.Label();
+            this.perTraitLabel = new System.Windows.Forms.Label();
+            this.flawsLabel = new System.Windows.Forms.Label();
+            this.bondLabel = new System.Windows.Forms.Label();
+            this.idealsLabel = new System.Windows.Forms.Label();
+            this.acLabel = new System.Windows.Forms.Label();
+            this.hpLabel = new System.Windows.Forms.Label();
+            this.equipmentLabel = new System.Windows.Forms.Label();
+            this.specialTraitsLabel = new System.Windows.Forms.Label();
+            this.proficienciesLabel = new System.Windows.Forms.Label();
+            this.attack1Label = new System.Windows.Forms.Label();
+            this.attack2Label = new System.Windows.Forms.Label();
+            this.attack3Label = new System.Windows.Forms.Label();
+            this.attack3BonLabel = new System.Windows.Forms.Label();
+            this.attack2BonLabel = new System.Windows.Forms.Label();
+            this.attack1BonLabel = new System.Windows.Forms.Label();
+            this.attack3dmgLabel = new System.Windows.Forms.Label();
+            this.attack2dmgLabel = new System.Windows.Forms.Label();
+            this.attack1dmgLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // MainMenu
@@ -81,385 +80,375 @@
             this.MainMenu.UseVisualStyleBackColor = false;
             this.MainMenu.Click += new System.EventHandler(this.MainMenu_Click);
             // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(65, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(295, 38);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(456, 62);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 38);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.Location = new System.Drawing.Point(642, 62);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(207, 38);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label4.Location = new System.Drawing.Point(870, 62);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(182, 38);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "label4";
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label5.Location = new System.Drawing.Point(870, 116);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(182, 38);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "label5";
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label6.Location = new System.Drawing.Point(642, 116);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(207, 38);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "label6";
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label7.Location = new System.Drawing.Point(456, 116);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(171, 38);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label8.Location = new System.Drawing.Point(146, 280);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 38);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "label8";
-            // 
-            // label9
-            // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label9.Location = new System.Drawing.Point(146, 344);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(106, 38);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "label9";
-            // 
-            // label10
-            // 
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label10.Location = new System.Drawing.Point(146, 412);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(106, 38);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "label10";
-            // 
-            // label11
-            // 
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label11.Location = new System.Drawing.Point(267, 412);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(106, 38);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "label11";
-            // 
-            // label12
-            // 
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label12.Location = new System.Drawing.Point(267, 344);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(106, 38);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "label12";
-            // 
-            // label13
-            // 
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label13.Location = new System.Drawing.Point(267, 280);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(106, 38);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "label13";
-            // 
-            // label14
-            // 
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label14.Location = new System.Drawing.Point(267, 608);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(106, 38);
-            this.label14.TabIndex = 19;
-            this.label14.Text = "label14";
-            // 
-            // label15
-            // 
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label15.Location = new System.Drawing.Point(267, 540);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(106, 38);
-            this.label15.TabIndex = 18;
-            this.label15.Text = "label15";
-            // 
-            // label16
-            // 
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label16.Location = new System.Drawing.Point(267, 476);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(106, 38);
-            this.label16.TabIndex = 17;
-            this.label16.Text = "label16";
-            // 
-            // label17
-            // 
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label17.Location = new System.Drawing.Point(146, 608);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(106, 38);
-            this.label17.TabIndex = 16;
-            this.label17.Text = "label17";
-            // 
-            // label18
-            // 
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label18.Location = new System.Drawing.Point(146, 540);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(106, 38);
-            this.label18.TabIndex = 15;
-            this.label18.Text = "label18";
-            // 
-            // label19
-            // 
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label19.Location = new System.Drawing.Point(146, 476);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(106, 38);
-            this.label19.TabIndex = 14;
-            this.label19.Text = "label19";
-            // 
-            // label20
-            // 
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label20.Location = new System.Drawing.Point(838, 344);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(214, 38);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "label20";
-            // 
-            // label21
-            // 
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label21.Location = new System.Drawing.Point(838, 461);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(214, 38);
-            this.label21.TabIndex = 21;
-            this.label21.Text = "label21";
-            // 
-            // label22
-            // 
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label22.Location = new System.Drawing.Point(838, 585);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(214, 38);
-            this.label22.TabIndex = 22;
-            this.label22.Text = "label22";
-            // 
-            // label23
-            // 
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label23.Location = new System.Drawing.Point(838, 700);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(214, 38);
-            this.label23.TabIndex = 23;
-            this.label23.Text = "label23";
-            // 
-            // label24
-            // 
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label24.Location = new System.Drawing.Point(489, 426);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(116, 38);
-            this.label24.TabIndex = 24;
-            this.label24.Text = "label24";
-            // 
-            // label25
-            // 
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label25.Location = new System.Drawing.Point(683, 426);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(116, 38);
-            this.label25.TabIndex = 25;
-            this.label25.Text = "label25";
-            // 
-            // label26
-            // 
-            this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label26.Location = new System.Drawing.Point(465, 550);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(319, 360);
-            this.label26.TabIndex = 26;
-            this.label26.Text = "label26";
-            // 
-            // label27
-            // 
-            this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label27.Location = new System.Drawing.Point(41, 791);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(357, 531);
-            this.label27.TabIndex = 27;
-            this.label27.Text = "label27";
-            // 
-            // label28
-            // 
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label28.Location = new System.Drawing.Point(808, 960);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(259, 493);
-            this.label28.TabIndex = 28;
-            this.label28.Text = "label28";
-            // 
-            // label29
-            // 
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label29.Location = new System.Drawing.Point(41, 1408);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(357, 408);
-            this.label29.TabIndex = 29;
-            this.label29.Text = "label29";
-            // 
-            // label30
-            // 
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label30.Location = new System.Drawing.Point(480, 1008);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(129, 38);
-            this.label30.TabIndex = 30;
-            this.label30.Text = "label30";
-            // 
-            // label31
-            // 
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label31.Location = new System.Drawing.Point(480, 1066);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(129, 38);
-            this.label31.TabIndex = 31;
-            this.label31.Text = "label31";
-            // 
-            // label32
-            // 
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label32.Location = new System.Drawing.Point(480, 1121);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(129, 38);
-            this.label32.TabIndex = 32;
-            this.label32.Text = "label32";
-            // 
-            // label33
-            // 
-            this.label33.BackColor = System.Drawing.Color.Transparent;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label33.Location = new System.Drawing.Point(628, 1121);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(49, 38);
-            this.label33.TabIndex = 35;
-            this.label33.Text = "label33";
-            // 
-            // label34
-            // 
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label34.Location = new System.Drawing.Point(628, 1066);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(49, 38);
-            this.label34.TabIndex = 34;
-            this.label34.Text = "label34";
-            // 
-            // label35
-            // 
-            this.label35.BackColor = System.Drawing.Color.Transparent;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label35.Location = new System.Drawing.Point(628, 1008);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(49, 38);
-            this.label35.TabIndex = 33;
-            this.label35.Text = "label35";
-            // 
-            // label36
-            // 
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label36.Location = new System.Drawing.Point(694, 1121);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(49, 38);
-            this.label36.TabIndex = 38;
-            this.label36.Text = "label36";
-            // 
-            // label37
-            // 
-            this.label37.BackColor = System.Drawing.Color.Transparent;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label37.Location = new System.Drawing.Point(694, 1066);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(49, 38);
-            this.label37.TabIndex = 37;
-            this.label37.Text = "label37";
-            // 
-            // label38
-            // 
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label38.Location = new System.Drawing.Point(694, 1008);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(49, 38);
-            this.label38.TabIndex = 36;
-            this.label38.Text = "label38";
+            // nameLabel
+            // 
+            this.nameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.nameLabel.Location = new System.Drawing.Point(65, 62);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(295, 38);
+            this.nameLabel.TabIndex = 1;
+            this.nameLabel.Text = "label1";
+            // 
+            // classLevelLabel
+            // 
+            this.classLevelLabel.BackColor = System.Drawing.Color.Transparent;
+            this.classLevelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.classLevelLabel.Location = new System.Drawing.Point(456, 62);
+            this.classLevelLabel.Name = "classLevelLabel";
+            this.classLevelLabel.Size = new System.Drawing.Size(171, 38);
+            this.classLevelLabel.TabIndex = 2;
+            this.classLevelLabel.Text = "label2";
+            // 
+            // backgroundLabel
+            // 
+            this.backgroundLabel.BackColor = System.Drawing.Color.Transparent;
+            this.backgroundLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.backgroundLabel.Location = new System.Drawing.Point(642, 62);
+            this.backgroundLabel.Name = "backgroundLabel";
+            this.backgroundLabel.Size = new System.Drawing.Size(207, 38);
+            this.backgroundLabel.TabIndex = 3;
+            this.backgroundLabel.Text = "label3";
+            // 
+            // playerNameLabel
+            // 
+            this.playerNameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.playerNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.playerNameLabel.Location = new System.Drawing.Point(870, 62);
+            this.playerNameLabel.Name = "playerNameLabel";
+            this.playerNameLabel.Size = new System.Drawing.Size(182, 38);
+            this.playerNameLabel.TabIndex = 4;
+            this.playerNameLabel.Text = "label4";
+            // 
+            // xpLabel
+            // 
+            this.xpLabel.BackColor = System.Drawing.Color.Transparent;
+            this.xpLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.xpLabel.Location = new System.Drawing.Point(870, 116);
+            this.xpLabel.Name = "xpLabel";
+            this.xpLabel.Size = new System.Drawing.Size(182, 38);
+            this.xpLabel.TabIndex = 7;
+            this.xpLabel.Text = "label5";
+            // 
+            // alignmentLabel
+            // 
+            this.alignmentLabel.BackColor = System.Drawing.Color.Transparent;
+            this.alignmentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.alignmentLabel.Location = new System.Drawing.Point(642, 116);
+            this.alignmentLabel.Name = "alignmentLabel";
+            this.alignmentLabel.Size = new System.Drawing.Size(207, 38);
+            this.alignmentLabel.TabIndex = 6;
+            this.alignmentLabel.Text = "label6";
+            // 
+            // raceLabel
+            // 
+            this.raceLabel.BackColor = System.Drawing.Color.Transparent;
+            this.raceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.raceLabel.Location = new System.Drawing.Point(456, 116);
+            this.raceLabel.Name = "raceLabel";
+            this.raceLabel.Size = new System.Drawing.Size(171, 38);
+            this.raceLabel.TabIndex = 5;
+            this.raceLabel.Text = "label7";
+            // 
+            // strStatLabel
+            // 
+            this.strStatLabel.BackColor = System.Drawing.Color.Transparent;
+            this.strStatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.strStatLabel.Location = new System.Drawing.Point(146, 280);
+            this.strStatLabel.Name = "strStatLabel";
+            this.strStatLabel.Size = new System.Drawing.Size(106, 38);
+            this.strStatLabel.TabIndex = 8;
+            this.strStatLabel.Text = "label8";
+            // 
+            // dexStatLabel
+            // 
+            this.dexStatLabel.BackColor = System.Drawing.Color.Transparent;
+            this.dexStatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.dexStatLabel.Location = new System.Drawing.Point(146, 344);
+            this.dexStatLabel.Name = "dexStatLabel";
+            this.dexStatLabel.Size = new System.Drawing.Size(106, 38);
+            this.dexStatLabel.TabIndex = 9;
+            this.dexStatLabel.Text = "label9";
+            // 
+            // conStatLabel
+            // 
+            this.conStatLabel.BackColor = System.Drawing.Color.Transparent;
+            this.conStatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.conStatLabel.Location = new System.Drawing.Point(146, 412);
+            this.conStatLabel.Name = "conStatLabel";
+            this.conStatLabel.Size = new System.Drawing.Size(106, 38);
+            this.conStatLabel.TabIndex = 10;
+            this.conStatLabel.Text = "label10";
+            // 
+            // conModLabel
+            // 
+            this.conModLabel.BackColor = System.Drawing.Color.Transparent;
+            this.conModLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.conModLabel.Location = new System.Drawing.Point(267, 412);
+            this.conModLabel.Name = "conModLabel";
+            this.conModLabel.Size = new System.Drawing.Size(106, 38);
+            this.conModLabel.TabIndex = 13;
+            this.conModLabel.Text = "label11";
+            // 
+            // dexModLabel
+            // 
+            this.dexModLabel.BackColor = System.Drawing.Color.Transparent;
+            this.dexModLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.dexModLabel.Location = new System.Drawing.Point(267, 344);
+            this.dexModLabel.Name = "dexModLabel";
+            this.dexModLabel.Size = new System.Drawing.Size(106, 38);
+            this.dexModLabel.TabIndex = 12;
+            this.dexModLabel.Text = "label12";
+            // 
+            // strModLabel
+            // 
+            this.strModLabel.BackColor = System.Drawing.Color.Transparent;
+            this.strModLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.strModLabel.Location = new System.Drawing.Point(267, 280);
+            this.strModLabel.Name = "strModLabel";
+            this.strModLabel.Size = new System.Drawing.Size(106, 38);
+            this.strModLabel.TabIndex = 11;
+            this.strModLabel.Text = "label13";
+            // 
+            // chaModLabel
+            // 
+            this.chaModLabel.BackColor = System.Drawing.Color.Transparent;
+            this.chaModLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.chaModLabel.Location = new System.Drawing.Point(267, 608);
+            this.chaModLabel.Name = "chaModLabel";
+            this.chaModLabel.Size = new System.Drawing.Size(106, 38);
+            this.chaModLabel.TabIndex = 19;
+            this.chaModLabel.Text = "label14";
+            // 
+            // wisModLabel
+            // 
+            this.wisModLabel.BackColor = System.Drawing.Color.Transparent;
+            this.wisModLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.wisModLabel.Location = new System.Drawing.Point(267, 540);
+            this.wisModLabel.Name = "wisModLabel";
+            this.wisModLabel.Size = new System.Drawing.Size(106, 38);
+            this.wisModLabel.TabIndex = 18;
+            this.wisModLabel.Text = "label15";
+            // 
+            // intModLabel
+            // 
+            this.intModLabel.BackColor = System.Drawing.Color.Transparent;
+            this.intModLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.intModLabel.Location = new System.Drawing.Point(267, 476);
+            this.intModLabel.Name = "intModLabel";
+            this.intModLabel.Size = new System.Drawing.Size(106, 38);
+            this.intModLabel.TabIndex = 17;
+            this.intModLabel.Text = "label16";
+            // 
+            // chaStatLabel
+            // 
+            this.chaStatLabel.BackColor = System.Drawing.Color.Transparent;
+            this.chaStatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.chaStatLabel.Location = new System.Drawing.Point(146, 608);
+            this.chaStatLabel.Name = "chaStatLabel";
+            this.chaStatLabel.Size = new System.Drawing.Size(106, 38);
+            this.chaStatLabel.TabIndex = 16;
+            this.chaStatLabel.Text = "label17";
+            // 
+            // wisStatLabel
+            // 
+            this.wisStatLabel.BackColor = System.Drawing.Color.Transparent;
+            this.wisStatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.wisStatLabel.Location = new System.Drawing.Point(146, 540);
+            this.wisStatLabel.Name = "wisStatLabel";
+            this.wisStatLabel.Size = new System.Drawing.Size(106, 38);
+            this.wisStatLabel.TabIndex = 15;
+            this.wisStatLabel.Text = "label18";
+            // 
+            // intStatLabel
+            // 
+            this.intStatLabel.BackColor = System.Drawing.Color.Transparent;
+            this.intStatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.intStatLabel.Location = new System.Drawing.Point(146, 476);
+            this.intStatLabel.Name = "intStatLabel";
+            this.intStatLabel.Size = new System.Drawing.Size(106, 38);
+            this.intStatLabel.TabIndex = 14;
+            this.intStatLabel.Text = "label19";
+            // 
+            // perTraitLabel
+            // 
+            this.perTraitLabel.BackColor = System.Drawing.Color.Transparent;
+            this.perTraitLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.perTraitLabel.Location = new System.Drawing.Point(838, 344);
+            this.perTraitLabel.Name = "perTraitLabel";
+            this.perTraitLabel.Size = new System.Drawing.Size(214, 38);
+            this.perTraitLabel.TabIndex = 20;
+            this.perTraitLabel.Text = "label20";
+            // 
+            // flawsLabel
+            // 
+            this.flawsLabel.BackColor = System.Drawing.Color.Transparent;
+            this.flawsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.flawsLabel.Location = new System.Drawing.Point(838, 461);
+            this.flawsLabel.Name = "flawsLabel";
+            this.flawsLabel.Size = new System.Drawing.Size(214, 38);
+            this.flawsLabel.TabIndex = 21;
+            this.flawsLabel.Text = "label21";
+            // 
+            // bondLabel
+            // 
+            this.bondLabel.BackColor = System.Drawing.Color.Transparent;
+            this.bondLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.bondLabel.Location = new System.Drawing.Point(838, 585);
+            this.bondLabel.Name = "bondLabel";
+            this.bondLabel.Size = new System.Drawing.Size(214, 38);
+            this.bondLabel.TabIndex = 22;
+            this.bondLabel.Text = "label22";
+            // 
+            // idealsLabel
+            // 
+            this.idealsLabel.BackColor = System.Drawing.Color.Transparent;
+            this.idealsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.idealsLabel.Location = new System.Drawing.Point(838, 700);
+            this.idealsLabel.Name = "idealsLabel";
+            this.idealsLabel.Size = new System.Drawing.Size(214, 38);
+            this.idealsLabel.TabIndex = 23;
+            this.idealsLabel.Text = "label23";
+            // 
+            // acLabel
+            // 
+            this.acLabel.BackColor = System.Drawing.Color.Transparent;
+            this.acLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.acLabel.Location = new System.Drawing.Point(489, 426);
+            this.acLabel.Name = "acLabel";
+            this.acLabel.Size = new System.Drawing.Size(116, 38);
+            this.acLabel.TabIndex = 24;
+            this.acLabel.Text = "label24";
+            // 
+            // hpLabel
+            // 
+            this.hpLabel.BackColor = System.Drawing.Color.Transparent;
+            this.hpLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.hpLabel.Location = new System.Drawing.Point(683, 426);
+            this.hpLabel.Name = "hpLabel";
+            this.hpLabel.Size = new System.Drawing.Size(116, 38);
+            this.hpLabel.TabIndex = 25;
+            this.hpLabel.Text = "label25";
+            // 
+            // equipmentLabel
+            // 
+            this.equipmentLabel.BackColor = System.Drawing.Color.Transparent;
+            this.equipmentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.equipmentLabel.Location = new System.Drawing.Point(41, 791);
+            this.equipmentLabel.Name = "equipmentLabel";
+            this.equipmentLabel.Size = new System.Drawing.Size(357, 531);
+            this.equipmentLabel.TabIndex = 27;
+            this.equipmentLabel.Text = "label27";
+            // 
+            // specialTraitsLabel
+            // 
+            this.specialTraitsLabel.BackColor = System.Drawing.Color.Transparent;
+            this.specialTraitsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.specialTraitsLabel.Location = new System.Drawing.Point(808, 960);
+            this.specialTraitsLabel.Name = "specialTraitsLabel";
+            this.specialTraitsLabel.Size = new System.Drawing.Size(259, 493);
+            this.specialTraitsLabel.TabIndex = 28;
+            this.specialTraitsLabel.Text = "label28";
+            // 
+            // proficienciesLabel
+            // 
+            this.proficienciesLabel.BackColor = System.Drawing.Color.Transparent;
+            this.proficienciesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.proficienciesLabel.Location = new System.Drawing.Point(41, 1408);
+            this.proficienciesLabel.Name = "proficienciesLabel";
+            this.proficienciesLabel.Size = new System.Drawing.Size(357, 408);
+            this.proficienciesLabel.TabIndex = 29;
+            this.proficienciesLabel.Text = "label29";
+            // 
+            // attack1Label
+            // 
+            this.attack1Label.BackColor = System.Drawing.Color.Transparent;
+            this.attack1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attack1Label.Location = new System.Drawing.Point(480, 1008);
+            this.attack1Label.Name = "attack1Label";
+            this.attack1Label.Size = new System.Drawing.Size(129, 38);
+            this.attack1Label.TabIndex = 30;
+            this.attack1Label.Text = "label30";
+            // 
+            // attack2Label
+            // 
+            this.attack2Label.BackColor = System.Drawing.Color.Transparent;
+            this.attack2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attack2Label.Location = new System.Drawing.Point(480, 1066);
+            this.attack2Label.Name = "attack2Label";
+            this.attack2Label.Size = new System.Drawing.Size(129, 38);
+            this.attack2Label.TabIndex = 31;
+            this.attack2Label.Text = "label31";
+            // 
+            // attack3Label
+            // 
+            this.attack3Label.BackColor = System.Drawing.Color.Transparent;
+            this.attack3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attack3Label.Location = new System.Drawing.Point(480, 1121);
+            this.attack3Label.Name = "attack3Label";
+            this.attack3Label.Size = new System.Drawing.Size(129, 38);
+            this.attack3Label.TabIndex = 32;
+            this.attack3Label.Text = "label32";
+            // 
+            // attack3BonLabel
+            // 
+            this.attack3BonLabel.BackColor = System.Drawing.Color.Transparent;
+            this.attack3BonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attack3BonLabel.Location = new System.Drawing.Point(628, 1121);
+            this.attack3BonLabel.Name = "attack3BonLabel";
+            this.attack3BonLabel.Size = new System.Drawing.Size(49, 38);
+            this.attack3BonLabel.TabIndex = 35;
+            this.attack3BonLabel.Text = "label33";
+            // 
+            // attack2BonLabel
+            // 
+            this.attack2BonLabel.BackColor = System.Drawing.Color.Transparent;
+            this.attack2BonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attack2BonLabel.Location = new System.Drawing.Point(628, 1066);
+            this.attack2BonLabel.Name = "attack2BonLabel";
+            this.attack2BonLabel.Size = new System.Drawing.Size(49, 38);
+            this.attack2BonLabel.TabIndex = 34;
+            this.attack2BonLabel.Text = "label34";
+            // 
+            // attack1BonLabel
+            // 
+            this.attack1BonLabel.BackColor = System.Drawing.Color.Transparent;
+            this.attack1BonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attack1BonLabel.Location = new System.Drawing.Point(628, 1008);
+            this.attack1BonLabel.Name = "attack1BonLabel";
+            this.attack1BonLabel.Size = new System.Drawing.Size(49, 38);
+            this.attack1BonLabel.TabIndex = 33;
+            this.attack1BonLabel.Text = "label35";
+            // 
+            // attack3dmgLabel
+            // 
+            this.attack3dmgLabel.BackColor = System.Drawing.Color.Transparent;
+            this.attack3dmgLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attack3dmgLabel.Location = new System.Drawing.Point(694, 1121);
+            this.attack3dmgLabel.Name = "attack3dmgLabel";
+            this.attack3dmgLabel.Size = new System.Drawing.Size(49, 38);
+            this.attack3dmgLabel.TabIndex = 38;
+            this.attack3dmgLabel.Text = "label36";
+            // 
+            // attack2dmgLabel
+            // 
+            this.attack2dmgLabel.BackColor = System.Drawing.Color.Transparent;
+            this.attack2dmgLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attack2dmgLabel.Location = new System.Drawing.Point(694, 1066);
+            this.attack2dmgLabel.Name = "attack2dmgLabel";
+            this.attack2dmgLabel.Size = new System.Drawing.Size(49, 38);
+            this.attack2dmgLabel.TabIndex = 37;
+            this.attack2dmgLabel.Text = "label37";
+            // 
+            // attack1dmgLabel
+            // 
+            this.attack1dmgLabel.BackColor = System.Drawing.Color.Transparent;
+            this.attack1dmgLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attack1dmgLabel.Location = new System.Drawing.Point(694, 1008);
+            this.attack1dmgLabel.Name = "attack1dmgLabel";
+            this.attack1dmgLabel.Size = new System.Drawing.Size(49, 38);
+            this.attack1dmgLabel.TabIndex = 36;
+            this.attack1dmgLabel.Text = "label38";
             // 
             // CharacterPrintOut
             // 
@@ -467,44 +456,43 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackgroundImage = global::DNDTHING.Properties.Resources.CharSheet;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.attack3dmgLabel);
+            this.Controls.Add(this.attack2dmgLabel);
+            this.Controls.Add(this.attack1dmgLabel);
+            this.Controls.Add(this.attack3BonLabel);
+            this.Controls.Add(this.attack2BonLabel);
+            this.Controls.Add(this.attack1BonLabel);
+            this.Controls.Add(this.attack3Label);
+            this.Controls.Add(this.attack2Label);
+            this.Controls.Add(this.attack1Label);
+            this.Controls.Add(this.proficienciesLabel);
+            this.Controls.Add(this.specialTraitsLabel);
+            this.Controls.Add(this.equipmentLabel);
+            this.Controls.Add(this.hpLabel);
+            this.Controls.Add(this.acLabel);
+            this.Controls.Add(this.idealsLabel);
+            this.Controls.Add(this.bondLabel);
+            this.Controls.Add(this.flawsLabel);
+            this.Controls.Add(this.perTraitLabel);
+            this.Controls.Add(this.chaModLabel);
+            this.Controls.Add(this.wisModLabel);
+            this.Controls.Add(this.intModLabel);
+            this.Controls.Add(this.chaStatLabel);
+            this.Controls.Add(this.wisStatLabel);
+            this.Controls.Add(this.intStatLabel);
+            this.Controls.Add(this.conModLabel);
+            this.Controls.Add(this.dexModLabel);
+            this.Controls.Add(this.strModLabel);
+            this.Controls.Add(this.conStatLabel);
+            this.Controls.Add(this.dexStatLabel);
+            this.Controls.Add(this.strStatLabel);
+            this.Controls.Add(this.xpLabel);
+            this.Controls.Add(this.alignmentLabel);
+            this.Controls.Add(this.raceLabel);
+            this.Controls.Add(this.playerNameLabel);
+            this.Controls.Add(this.backgroundLabel);
+            this.Controls.Add(this.classLevelLabel);
+            this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.MainMenu);
             this.Name = "CharacterPrintOut";
             this.Size = new System.Drawing.Size(1080, 1920);
@@ -516,43 +504,42 @@
         #endregion
 
         private System.Windows.Forms.Button MainMenu;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label nameLabel;
+        private System.Windows.Forms.Label classLevelLabel;
+        private System.Windows.Forms.Label backgroundLabel;
+        private System.Windows.Forms.Label playerNameLabel;
+        private System.Windows.Forms.Label xpLabel;
+        private System.Windows.Forms.Label alignmentLabel;
+        private System.Windows.Forms.Label raceLabel;
+        private System.Windows.Forms.Label strStatLabel;
+        private System.Windows.Forms.Label dexStatLabel;
+        private System.Windows.Forms.Label conStatLabel;
+        private System.Windows.Forms.Label conModLabel;
+        private System.Windows.Forms.Label dexModLabel;
+        private System.Windows.Forms.Label strModLabel;
+        private System.Windows.Forms.Label chaModLabel;
+        private System.Windows.Forms.Label wisModLabel;
+        private System.Windows.Forms.Label intModLabel;
+        private System.Windows.Forms.Label chaStatLabel;
+        private System.Windows.Forms.Label wisStatLabel;
+        private System.Windows.Forms.Label intStatLabel;
+        private System.Windows.Forms.Label perTraitLabel;
+        private System.Windows.Forms.Label flawsLabel;
+        private System.Windows.Forms.Label bondLabel;
+        private System.Windows.Forms.Label idealsLabel;
+        private System.Windows.Forms.Label acLabel;
+        private System.Windows.Forms.Label hpLabel;
+        private System.Windows.Forms.Label equipmentLabel;
+        private System.Windows.Forms.Label specialTraitsLabel;
+        private System.Windows.Forms.Label proficienciesLabel;
+        private System.Windows.Forms.Label attack1Label;
+        private System.Windows.Forms.Label attack2Label;
+        private System.Windows.Forms.Label attack3Label;
+        private System.Windows.Forms.Label attack3BonLabel;
+        private System.Windows.Forms.Label attack2BonLabel;
+        private System.Windows.Forms.Label attack1BonLabel;
+        private System.Windows.Forms.Label attack3dmgLabel;
+        private System.Windows.Forms.Label attack2dmgLabel;
+        private System.Windows.Forms.Label attack1dmgLabel;
     }
 }

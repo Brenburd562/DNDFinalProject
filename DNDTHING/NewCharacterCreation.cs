@@ -20,7 +20,6 @@ namespace DNDTHING
         {
             InitializeComponent();
 
-
             XmlReader reader = XmlReader.Create("Resources/Characters.xml", null);
 
             while (reader.Read())
@@ -29,117 +28,118 @@ namespace DNDTHING
                 {
                     string name = reader.ReadString();
 
-                    reader.ReadToNextSibling("classLevel");
+                    reader.ReadToNextSibling("ClassLevel");
                     string classLevel = reader.ReadString();
 
-                    reader.ReadToNextSibling("background");
+                    reader.ReadToNextSibling("BackGround");
                     string background = reader.ReadString();
 
-                    reader.ReadToNextSibling("playerName");
+                    reader.ReadToNextSibling("PlayerName");
                     string playerName = reader.ReadString();
 
-                    reader.ReadToNextSibling("race");
+                    reader.ReadToNextSibling("Race");
                     string race = reader.ReadString();
 
-                    reader.ReadToNextSibling("alignment");
+                    reader.ReadToNextSibling("Alignment");
                     string alignment = reader.ReadString();
 
                     reader.ReadToNextSibling("XP");
                     string XP = reader.ReadString();
 
-                    reader.ReadToNextSibling("strStat");
+                    reader.ReadToNextSibling("StrStat");
                     string strStat = reader.ReadString();
 
-                    reader.ReadToNextSibling("strMod");
+                    reader.ReadToNextSibling("StrMod");
                     string strMod = reader.ReadString();
 
-                    reader.ReadToNextSibling("dexStat");
+                    reader.ReadToNextSibling("DexStat");
                     string dexStat = reader.ReadString();
 
-                    reader.ReadToNextSibling("dexMod");
+                    reader.ReadToNextSibling("DexMod");
                     string dexMod = reader.ReadString();
 
-                    reader.ReadToNextSibling("conStat");
+                    reader.ReadToNextSibling("ConStat");
                     string conStat = reader.ReadString();
 
-                    reader.ReadToNextSibling("conMod");
+                    reader.ReadToNextSibling("ConMod");
                     string conMod = reader.ReadString();
 
-                    reader.ReadToNextSibling("intStat");
+                    reader.ReadToNextSibling("IntStat");
                     string intStat = reader.ReadString();
 
-                    reader.ReadToNextSibling("intMod");
+                    reader.ReadToNextSibling("IntMod");
                     string intMod = reader.ReadString();
 
-                    reader.ReadToNextSibling("wisStat");
+                    reader.ReadToNextSibling("WisStat");
                     string wisStat = reader.ReadString();
 
-                    reader.ReadToNextSibling("wisMod");
+                    reader.ReadToNextSibling("WisMod");
                     string wisMod = reader.ReadString();
 
-                    reader.ReadToNextSibling("charStat");
+                    reader.ReadToNextSibling("chaStat");
                     string charStat = reader.ReadString();
 
-                    reader.ReadToNextSibling("charMod");
+                    reader.ReadToNextSibling("ChaMod");
                     string charMod = reader.ReadString();
 
-                    reader.ReadToNextSibling("AC");
+                    reader.ReadToNextSibling("Ac");
                     string AC = reader.ReadString();
 
                     reader.ReadToNextSibling("HP");
                     string HP = reader.ReadString();
 
-                    reader.ReadToNextSibling("peronalityTraits");
+                    reader.ReadToNextSibling("PersonalityTraits");
                     string personalityTraits = reader.ReadString();
 
-                    reader.ReadToNextSibling("flaws");
+                    reader.ReadToNextSibling("Flaws");
                     string flaws = reader.ReadString();
 
-                    reader.ReadToNextSibling("bond");
+                    reader.ReadToNextSibling("Bond");
                     string bond = reader.ReadString();
 
-                    reader.ReadToNextSibling("ideals");
+                    reader.ReadToNextSibling("Ideals");
                     string ideals = reader.ReadString();
 
-                    reader.ReadToNextSibling("equipment");
+                    reader.ReadToNextSibling("Equipment");
                     string equipment = reader.ReadString();
 
-                    reader.ReadToNextSibling("attack1");
+                    reader.ReadToNextSibling("Attack1");
                     string attack1 = reader.ReadString();
 
-                    reader.ReadToNextSibling("attackBon1");
+                    reader.ReadToNextSibling("Attack1Bonus");
                     string attackBon1 = reader.ReadString();
 
-                    reader.ReadToNextSibling("attackDmg1");
-                    string attackDmg1 = reader.ReadString();
+                    reader.ReadToNextSibling("Attack1Damage");
+                    string attack1Dmg = reader.ReadString();
 
-                    reader.ReadToNextSibling("attack2");
+                    reader.ReadToNextSibling("Attack2");
                     string attack2 = reader.ReadString();
 
-                    reader.ReadToNextSibling("attackBon2");
+                    reader.ReadToNextSibling("Attack2Bonus");
                     string attackBon2 = reader.ReadString();
 
-                    reader.ReadToNextSibling("attackDmg2");
-                    string attackDmg2 = reader.ReadString();
+                    reader.ReadToNextSibling("Attack2Damage");
+                    string attack2Dmg = reader.ReadString();
 
-                    reader.ReadToNextSibling("attack3");
+                    reader.ReadToNextSibling("Attack3");
                     string attack3 = reader.ReadString();
 
-                    reader.ReadToNextSibling("attackBon3");
+                    reader.ReadToNextSibling("Attack3Bonus");
                     string attackBon3 = reader.ReadString();
 
-                    reader.ReadToNextSibling("attackDmg3");
-                    string attackDmg3 = reader.ReadString();
+                    reader.ReadToNextSibling("Attack3Damage");
+                    string attack3Dmg = reader.ReadString();
 
-                    reader.ReadToNextSibling("specialTraits");
+                    reader.ReadToNextSibling("SpecialTraits");
                     string specialTraits = reader.ReadString();
 
-                    reader.ReadToNextSibling("proficiencies");
+                    reader.ReadToNextSibling("ProficienciesInput");
                     string proficiencies = reader.ReadString();
 
+
                     Characters character = new Characters(name, classLevel, background, playerName, race, alignment, XP, strStat, strMod, dexStat, dexMod, conStat, conMod, intStat, intMod, wisStat,
-                    wisMod, charStat, charMod, AC, HP, personalityTraits, flaws, bond, ideals, equipment, attack1, attackBon1, attackDmg1, attack2, attackBon2, attackDmg2
-                    , attack3, attackBon3, attackDmg3, specialTraits, proficiencies);
+                    wisMod, charStat, charMod, AC, HP, personalityTraits, flaws, bond, ideals, equipment, attack1, attackBon1, attack1Dmg, attack2, attackBon2, attack2Dmg
+                    , attack3, attackBon3, attack3Dmg, specialTraits, proficiencies);
                     CharacterDB.Add(character);
                 }
             }

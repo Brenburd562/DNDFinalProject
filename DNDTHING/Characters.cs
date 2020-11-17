@@ -50,7 +50,7 @@ namespace DNDTHING
             attack2 = _attack2;
             attackBon2 = _attackBon2;
             attackDmg2 = _attackDmg2;
-;           attack3 = _attack3;
+            attack3 = _attack3;
             attackBon3 = _attackBon3;
             attackDmg3 = _attackDmg3;
             specialTraits = _specialTraits;

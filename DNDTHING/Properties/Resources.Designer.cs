@@ -71,31 +71,6 @@ namespace DNDTHING.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;Characters&gt;
-        ///  &lt;Character&gt;
-        ///    &lt;Name&gt;gjvygivhv&lt;/Name&gt;
-        ///    &lt;ClassLevel&gt;vhkgukhv bnvn&lt;/ClassLevel&gt;
-        ///    &lt;BackGround&gt;gygvgch&lt;/BackGround&gt;
-        ///    &lt;PlayerName&gt;vygyugyg&lt;/PlayerName&gt;
-        ///    &lt;Race&gt;jbh vhj&lt;/Race&gt;
-        ///    &lt;Alignment&gt;guygcyg&lt;/Alignment&gt;
-        ///    &lt;XP&gt;u8uhgv&lt;/XP&gt;
-        ///    &lt;StrStat&gt;gygfcygy&lt;/StrStat&gt;
-        ///    &lt;StrMod&gt;gvygv&lt;/StrMod&gt;
-        ///    &lt;DexStat&gt;hbhv vh&lt;/DexStat&gt;
-        ///    &lt;DexMod&gt;bhvuhv&lt;/DexMod&gt;
-        ///    &lt;ConStat&gt;huhvh&lt;/ConStat&gt;
-        ///    &lt;ConMod&gt; guhhv&lt;/ConMod&gt;
-        ///    &lt;IntStat&gt;huihubh&lt;/IntStat&gt; [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string Characters1 {
-            get {
-                return ResourceManager.GetString("Characters1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap CharSheet {

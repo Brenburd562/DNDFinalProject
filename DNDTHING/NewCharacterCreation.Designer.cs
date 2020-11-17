@@ -62,13 +62,12 @@
             this.Atk3BonInput = new System.Windows.Forms.TextBox();
             this.ACInput = new System.Windows.Forms.TextBox();
             this.HPInput = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.MainMenu = new System.Windows.Forms.Button();
             this.Create = new System.Windows.Forms.Button();
             this.EquipmentInput = new System.Windows.Forms.TextBox();
             this.SpecialTraitsInput = new System.Windows.Forms.TextBox();
             this.ProficienciesInput = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // NameInput
@@ -309,14 +308,6 @@
             this.HPInput.Size = new System.Drawing.Size(99, 35);
             this.HPInput.TabIndex = 33;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(472, 551);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(306, 354);
-            this.pictureBox1.TabIndex = 34;
-            this.pictureBox1.TabStop = false;
-            // 
             // MainMenu
             // 
             this.MainMenu.BackColor = System.Drawing.Color.DimGray;
@@ -365,6 +356,17 @@
             this.ProficienciesInput.Size = new System.Drawing.Size(369, 419);
             this.ProficienciesInput.TabIndex = 43;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(511, 692);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(229, 69);
+            this.label1.TabIndex = 44;
+            this.label1.Text = "IMAGE";
+            // 
             // NewCharacterCreation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -372,12 +374,12 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::DNDTHING.Properties.Resources.CharSheet;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.ProficienciesInput);
             this.Controls.Add(this.SpecialTraitsInput);
             this.Controls.Add(this.EquipmentInput);
             this.Controls.Add(this.Create);
             this.Controls.Add(this.MainMenu);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.HPInput);
             this.Controls.Add(this.ACInput);
             this.Controls.Add(this.Atk3DmgInput);
@@ -415,7 +417,6 @@
             this.Name = "NewCharacterCreation";
             this.Size = new System.Drawing.Size(1080, 1920);
             this.Load += new System.EventHandler(this.NewCharacterCreation_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -457,11 +458,11 @@
         private System.Windows.Forms.TextBox Atk3BonInput;
         private System.Windows.Forms.TextBox ACInput;
         private System.Windows.Forms.TextBox HPInput;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button MainMenu;
         private System.Windows.Forms.Button Create;
         private System.Windows.Forms.TextBox EquipmentInput;
         private System.Windows.Forms.TextBox SpecialTraitsInput;
         private System.Windows.Forms.TextBox ProficienciesInput;
+        private System.Windows.Forms.Label label1;
     }
 }
