@@ -64,6 +64,12 @@
     <Compile Include="CharacterSearch.Designer.cs">
       <DependentUpon>CharacterSearch.cs</DependentUpon>
     </Compile>
+    <Compile Include="DiceRoll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DiceRoll.Designer.cs">
+      <DependentUpon>DiceRoll.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CharacterSearch.resx">
       <DependentUpon>CharacterSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiceRoll.resx">
+      <DependentUpon>DiceRoll.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -143,6 +152,26 @@
     <Content Include="Characters.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\5.jpg" />
+    <None Include="Resources\4.jpg" />
+    <None Include="Resources\13.jpg" />
+    <None Include="Resources\12.jpg" />
+    <None Include="Resources\Nat 20.jpg" />
+    <None Include="Resources\14.jpg" />
+    <None Include="Resources\10.jpg" />
+    <None Include="Resources\9.jpg" />
+    <None Include="Resources\Nat 1.jpg" />
+    <None Include="Resources\19.jpg" />
+    <None Include="Resources\18.jpg" />
+    <None Include="Resources\11.jpg" />
+    <None Include="Resources\7.jpg" />
+    <None Include="Resources\6.jpg" />
+    <None Include="Resources\17.jpg" />
+    <None Include="Resources\16.jpg" />
+    <None Include="Resources\15.jpg" />
+    <None Include="Resources\8.jpg" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

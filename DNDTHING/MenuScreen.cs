@@ -44,7 +44,12 @@ namespace DNDTHING
 
         private void button3_Click(object sender, EventArgs e)
         {
+            Form ms = this.FindForm();
+            ms.Controls.Remove(this);
 
+            DiceRoll dr = new DiceRoll();
+            ms.Controls.Add(dr);
+            dr.Focus();
         }
 
         private void button4_Click(object sender, EventArgs e)
