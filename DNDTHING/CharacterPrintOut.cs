@@ -11,6 +11,8 @@ using System.Xml;
 
 namespace DNDTHING
 {
+    //This prints out the character information based on a search.
+
     public partial class CharacterPrintOut : UserControl
     {
         List<Characters> CharacterList = new List<Characters>();

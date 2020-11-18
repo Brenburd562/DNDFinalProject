@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace DNDTHING
 {
+    //Brendan Burdett
+    //The Main Menu has four buttons that allow the user to create a new character, view saved characters, roll a dice or exit the program.
     public partial class Menu_Screen : UserControl
     {
         public Menu_Screen()

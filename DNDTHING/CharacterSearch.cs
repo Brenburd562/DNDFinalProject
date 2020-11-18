@@ -13,6 +13,7 @@ namespace DNDTHING
 {
     public partial class CharacterSearch : UserControl
     {
+        //this form takes input from the search box and checks the list for names, it then sends this info to the print out screen where it is used to print out the character.
         List<Characters> CharacterList = new List<Characters>();
 
         public CharacterSearch()

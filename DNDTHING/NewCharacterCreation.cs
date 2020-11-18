@@ -13,7 +13,7 @@ namespace DNDTHING
 {
     public partial class NewCharacterCreation : UserControl
     {
-
+        //this form is for creating characters it take inputs from all of the text boxes and saves them to the XML file
         List<Characters> CharacterDB = new List<Characters>();
 
         public NewCharacterCreation()
